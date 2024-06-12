@@ -50,11 +50,11 @@ function App() {
             </div>
           </div>
           <hr className="border-t border-gray-400 mx-10 my-4" />
-          <div>
-            <h2 className="text-nutmeg font-young-serif font-bold text-3xl">
+          <div className="pt-2 pb-4 pl-10 pr-10">
+            <h2 className="text-nutmeg font-young-serif font-bold text-3xl mb-6">
               Instructions
             </h2>
-            <ol className="text-wenge-brown font-outfit">
+            <ol className="text-wenge-brown font-outfit list-decimal pl-5">
               <li>
                 Beat the eggs: In a bowl, beat the eggs with a pinch of salt and
                 pepper until they are well mixed. You can add a tablespoon of
@@ -86,8 +86,9 @@ function App() {
               </li>
             </ol>
           </div>
-          <div>
-            <h1 className="text-nutmeg font-young-serif font-bold text-3xl">
+          <hr className="border-t border-gray-400 mx-10 my-4" />
+          <div className="pt-2 pb-4 pl-10 pr-10">
+            <h1 className="text-nutmeg font-young-serif font-bold text-3xl mb-6">
               Nutrition
             </h1>
             <p>
