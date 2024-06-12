@@ -13,6 +13,10 @@ module.exports = {
         "wenge-brown": "hsl(30, 10%, 34%)",
         "dark-charcoal": "hsl(24, 5%, 18%)",
       },
+      fontFamily: {
+        outfit: ["Outfit", "sans-serif"],
+        "young-serif": ["Young Serif", "serif"],
+      },
     },
   },
   variants: {},
