@@ -1,9 +1,13 @@
 import TextBlock from "./TextBlock";
+import omeletteImage from "./assets/omelette.jpeg";
 
 function App() {
   return (
     <>
       <div>
+        <div>
+          <img src={omeletteImage} alt="Omelette" />
+        </div>
         <div>
           <h1>Simple Omelette Recipe</h1>
           <p>
@@ -39,8 +43,11 @@ function App() {
             <li>Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette. </li>
             <li> Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
             <li>Enjoy: Serve hot, with additional salt and pepper if needed. Nutrition The table below shows nutritional values per serving without the additional fillings.</li>
-
           </ol>
+        </div>
+        <div>
+          <h1>Nutrition</h1>
+          <p>The table below shows nutritional values per serving without the additional fillings.</p>
         </div>
       </div>
     </>
