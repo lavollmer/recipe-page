@@ -49,6 +49,7 @@ function App() {
               </ul>
             </div>
           </div>
+          <hr className="border-t border-gray-400 mx-10 my-4" />
           <div>
             <h2 className="text-nutmeg font-young-serif font-bold text-3xl">
               Instructions
