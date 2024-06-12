@@ -20,7 +20,7 @@ function App() {
             </p>
           </div>
           <div className="container mx-auto">
-          <div className="font-outfit bg-rose-white container p-6 rounded-lg w-3/4 mx-auto">
+            <div className="font-outfit bg-rose-white container p-6 rounded-lg w-3/4 mx-auto">
               <h2 className="text-dark-raspberry font-bold text-xl">
                 Preparation Time
               </h2>
@@ -32,19 +32,22 @@ function App() {
               </ul>
             </div>
           </div>
-          <div>
-            <h2 className="text-nutmeg font-young-serif font-bold text-3xl">
-              Ingredients{" "}
+          <div className="container mx-auto">
+            <h2 className="text-nutmeg font-young-serif font-bold text-3xl pt-2 pb-4 pl-10">
+              Ingredients
             </h2>
-            <ul className="text-wenge-brown font-outfit">
-              <li>2-3 large eggs</li>
-              <li>Salt, to taste</li>
-              <li>Pepper, to taste</li>
-              <li>1 tablespoon of butter or oil</li>
-              <li>
-                Optional fillings: cheese, diced vegetables, cooked meats, herbs
-              </li>
-            </ul>
+            <div className="pt-2 pb-4 pl-10 pr-10">
+              <ul className="text-wenge-brown font-outfit list-disc pl-5">
+                <li>2-3 large eggs</li>
+                <li>Salt, to taste</li>
+                <li>Pepper, to taste</li>
+                <li>1 tablespoon of butter or oil</li>
+                <li>
+                  Optional fillings: cheese, diced vegetables, cooked meats,
+                  herbs
+                </li>
+              </ul>
+            </div>
           </div>
           <div>
             <h2 className="text-nutmeg font-young-serif font-bold text-3xl">
