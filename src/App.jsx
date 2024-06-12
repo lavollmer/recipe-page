@@ -18,11 +18,14 @@ function App() {
               omelette combines beaten eggs cooked to perfection, optionally
               filled with your choice of cheese, vegetables, or meats.
             </p>
-            <div className="font-outfit bg-rose-white">
+          </div>
+          <div className="container mx-auto">
+          <div className="font-outfit bg-rose-white container p-6 rounded-lg w-3/4 mx-auto">
               <h2 className="text-dark-raspberry font-bold text-xl">
                 Preparation Time
               </h2>
-              <ul>
+              {/* list-disc class is used to add bullet points and pl-5 to add padding to left */}
+              <ul className="list-disc pl-5">
                 <li>Total: Approximately 10 minutes</li>
                 <li>Preparation: 5 minutes</li>
                 <li>Cooking: 5 minutes</li>
@@ -30,7 +33,9 @@ function App() {
             </div>
           </div>
           <div>
-            <h2 className="text-nutmeg font-young-serif font-bold text-3xl">Ingredients </h2>
+            <h2 className="text-nutmeg font-young-serif font-bold text-3xl">
+              Ingredients{" "}
+            </h2>
             <ul className="text-wenge-brown font-outfit">
               <li>2-3 large eggs</li>
               <li>Salt, to taste</li>
@@ -42,7 +47,9 @@ function App() {
             </ul>
           </div>
           <div>
-            <h2 className="text-nutmeg font-young-serif font-bold text-3xl">Instructions</h2>
+            <h2 className="text-nutmeg font-young-serif font-bold text-3xl">
+              Instructions
+            </h2>
             <ol className="text-wenge-brown font-outfit">
               <li>
                 Beat the eggs: In a bowl, beat the eggs with a pinch of salt and
@@ -76,7 +83,9 @@ function App() {
             </ol>
           </div>
           <div>
-            <h1 className="text-nutmeg font-young-serif font-bold text-3xl">Nutrition</h1>
+            <h1 className="text-nutmeg font-young-serif font-bold text-3xl">
+              Nutrition
+            </h1>
             <p>
               The table below shows nutritional values per serving without the
               additional fillings.
