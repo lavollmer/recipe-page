@@ -4,13 +4,13 @@ import omeletteImage from "./assets/omelette.jpeg";
 function App() {
   return (
     <>
-      <div className="bg-eggshell">
-        <div className="bg-white">
+      <div className="bg-eggshell container mx-auto">
+        <div className="bg-white container mx-auto flex flex-col">
           <div>
             <img src={omeletteImage} alt="Omelette" />
           </div>
-          <div>
-            <h1 className="text-dark-charcoal font-young-serif">
+          <div className="container mx-auto">
+            <h1 className="text-dark-charcoal font-young-serif text-4xl font-bold">
               Simple Omelette Recipe
             </h1>
             <p className="text-wenge-brown font-outfit">
@@ -19,8 +19,8 @@ function App() {
               filled with your choice of cheese, vegetables, or meats.
             </p>
             <div className="font-outfit bg-rose-white">
-              <h2 className="text-dark-raspberry font-bold">
-                Preparation Time{" "}
+              <h2 className="text-dark-raspberry font-bold text-xl">
+                Preparation Time
               </h2>
               <ul>
                 <li>Total: Approximately 10 minutes</li>
@@ -30,7 +30,7 @@ function App() {
             </div>
           </div>
           <div>
-            <h2 className="text-nutmeg font-young-serif">Ingredients </h2>
+            <h2 className="text-nutmeg font-young-serif font-bold text-3xl">Ingredients </h2>
             <ul className="text-wenge-brown font-outfit">
               <li>2-3 large eggs</li>
               <li>Salt, to taste</li>
@@ -42,7 +42,7 @@ function App() {
             </ul>
           </div>
           <div>
-            <h2 className="text-nutmeg font-young-serif">Instructions</h2>
+            <h2 className="text-nutmeg font-young-serif font-bold text-3xl">Instructions</h2>
             <ol className="text-wenge-brown font-outfit">
               <li>
                 Beat the eggs: In a bowl, beat the eggs with a pinch of salt and
@@ -76,7 +76,7 @@ function App() {
             </ol>
           </div>
           <div>
-            <h1 className="text-nutmeg font-young-serif">Nutrition</h1>
+            <h1 className="text-nutmeg font-young-serif font-bold text-3xl">Nutrition</h1>
             <p>
               The table below shows nutritional values per serving without the
               additional fillings.
