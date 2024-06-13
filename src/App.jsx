@@ -95,6 +95,10 @@ function App() {
               The table below shows nutritional values per serving without the
               additional fillings.
             </p>
+            <p>Calories 277kcal</p>
+            <p>Carbs 0g</p>
+            <p>Protein 20g</p>
+            <p>Fat 22g</p>
           </div>
         </div>
       </div>
