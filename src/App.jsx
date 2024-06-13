@@ -9,7 +9,7 @@ function App() {
           <img src={omeletteImage} alt="Omelette" className="rounded-lg" />
         </div>
         <div className="container">
-          <h1 className="text-dark-charcoal font-young-serif text-4xl font-bold pt-2 pb-4 pl-10">
+          <h1 className="text-dark-charcoal font-young-serif text-2xl md:text-4xl font-bold pt-2 pb-4 pl-10">
             Simple Omelette Recipe
           </h1>
           <p className="text-wenge-brown font-outfit pt-2 pb-4 pl-10 pr-10">
@@ -20,7 +20,7 @@ function App() {
         </div>
         <div className="container mx-auto">
           <div className="font-outfit bg-rose-white container p-6 rounded-lg w-3/4 mx-auto">
-            <h2 className="text-dark-raspberry font-bold text-xl">
+            <h2 className="text-dark-raspberry font-bold text-lg md:text-xl">
               Preparation Time
             </h2>
             {/* list-disc class is used to add bullet points and pl-5 to add padding to left */}
@@ -47,7 +47,7 @@ function App() {
           </div>
         </div>
         <div className="container mx-auto">
-          <h2 className="text-nutmeg font-young-serif font-bold text-3xl pt-2 pb-4 pl-10">
+          <h2 className="text-nutmeg font-young-serif font-bold text-2xl md:text-4xl pt-2 pb-4 pl-10">
             Ingredients
           </h2>
           <div className="pt-2 pb-4 pl-10 pr-10">
@@ -64,7 +64,7 @@ function App() {
         </div>
         <hr className="border-t border-gray-400 mx-10 my-4" />
         <div className="pt-2 pb-4 pl-10 pr-10">
-          <h2 className="text-nutmeg font-young-serif font-bold text-3xl mb-6">
+          <h2 className="text-nutmeg font-young-serif font-bold text-2xl md:text-4xl mb-6">
             Instructions
           </h2>
           <ol className="text-wenge-brown font-outfit list-decimal pl-5">
@@ -118,42 +118,35 @@ function App() {
         </div>
         <hr className="border-t border-gray-400 mx-10 my-4" />
         <div className="pt-2 pb-4 pl-10 pr-10">
-          <h1 className="text-nutmeg font-young-serif font-bold text-3xl mb-6">
-            Nutrition
-          </h1>
-          <p>
-            The table below shows nutritional values per serving without the
-            additional fillings.
-          </p>
-
-          <div className="flex">
-            <table>
-              <thead>
-                <tr>
-                  <th className="text-dark-charcoal font-outfit">Nutrient</th>
-                  <th className="text-nutmeg font-bold font-outfit">Amount</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className="text-dark-charcoal font-outfit">Calories</td>
-                  <td className="text-nutmeg font-bold font-outfit">277kcal</td>
-                </tr>
-                <tr>
-                  <td className="text-dark-charcoal font-outfit">Carbs</td>
-                  <td className="text-nutmeg font-bold font-outfit">0g</td>
-                </tr>
-                <tr>
-                  <td className="text-dark-charcoal font-outfit">Protein</td>
-                  <td className="text-nutmeg font-bold font-outfit">20g</td>
-                </tr>
-                <tr>
-                  <td className="text-dark-charcoal font-outfit">Fat</td>
-                  <td className="text-nutmeg font-bold font-outfit">22g</td>
-                </tr>
-              </tbody>
-            </table>
+          <div>
+            <h1 className="text-nutmeg font-young-serif font-bold text-2xl md:text-4xl mb-4">
+              Nutrition
+            </h1>
+            <p>
+              The table below shows nutritional values per serving without the
+              additional fillings.
+            </p>
           </div>
+          <table className="border-spacing-6 flex flex-col">
+            <tbody>
+              <tr>
+                <td className="text-dark-charcoal font-outfit">Calories</td>
+                <td className="text-nutmeg font-bold font-outfit px-10">277kcal</td>
+              </tr>
+              <tr>
+                <td className="text-dark-charcoal font-outfit">Carbs</td>
+                <td className="text-nutmeg font-bold font-outfit px-10">0g</td>
+              </tr>
+              <tr>
+                <td className="text-dark-charcoal font-outfit">Protein</td>
+                <td className="text-nutmeg font-bold font-outfit px-10">20g</td>
+              </tr>
+              <tr>
+                <td className="text-dark-charcoal font-outfit">Fat</td>
+                <td className="text-nutmeg font-bold font-outfit px-10">22g</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
