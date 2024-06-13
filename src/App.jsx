@@ -127,30 +127,34 @@ function App() {
               The table below shows nutritional values per serving without the
               additional fillings.
             </p>
-            <div className="flex">
-              <div>
-                <p className="text-dark-charcoal font-outfit">Calories</p>
-                <p className="text-nutmeg font-bold font-outfit">277kcal</p>
-              </div>
-              <hr className="border-t border-gray-400 mx-10 my-4" />
-              <div>
-                <p className="text-dark-charcoal font-outfit">Carbs</p>
-                <p className="text-nutmeg font-bold font-outfit">0g</p>
-              </div>
-              <hr className="border-t border-gray-400 mx-10 my-4" />
-              <div>
-                <p className="text-dark-charcoal font-outfit">Protein</p>
-                <p className="text-nutmeg font-bold font-outfit">20g</p>
-              </div>
-              <hr className="border-t border-gray-400 mx-10 my-4" />
-              <div>
-                <p className="text-dark-charcoal font-outfit">Fat</p>
-                <p className="text-nutmeg font-bold font-outfit">22g</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+<div className="flex">
+  <table>
+    <thead>
+      <tr>
+        <th className="text-dark-charcoal font-outfit">Nutrient</th>
+        <th className="text-nutmeg font-bold font-outfit">Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className="text-dark-charcoal font-outfit">Calories</td>
+        <td className="text-nutmeg font-bold font-outfit">277kcal</td>
+      </tr>
+      <tr>
+        <td className="text-dark-charcoal font-outfit">Carbs</td>
+        <td className="text-nutmeg font-bold font-outfit">0g</td>
+      </tr>
+      <tr>
+        <td className="text-dark-charcoal font-outfit">Protein</td>
+        <td className="text-nutmeg font-bold font-outfit">20g</td>
+      </tr>
+      <tr>
+        <td className="text-dark-charcoal font-outfit">Fat</td>
+        <td className="text-nutmeg font-bold font-outfit">22g</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
     </>
   );
 }
