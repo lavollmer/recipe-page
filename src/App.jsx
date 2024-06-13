@@ -26,9 +26,9 @@ function App() {
               </h2>
               {/* list-disc class is used to add bullet points and pl-5 to add padding to left */}
               <ul className="list-disc pl-5">
-                <li>Total: Approximately 10 minutes</li>
-                <li>Preparation: 5 minutes</li>
-                <li>Cooking: 5 minutes</li>
+                <li><span className="text-dark-charcoal font-bold font-outfit">Total:</span> Approximately 10 minutes</li>
+                <li><span className="text-dark-charcoal font-bold font-outfit">Preparation:</span> 5 minutes</li>
+                <li><span className="text-dark-charcoal font-bold font-outfit">Cooking:</span> 5 minutes</li>
               </ul>
             </div>
           </div>
@@ -95,13 +95,17 @@ function App() {
               The table below shows nutritional values per serving without the
               additional fillings.
             </p>
-            <p>Calories 277kcal</p>
+            <p className="text-dark-charcoal font-outfit">Calories</p>
+            <p className="text-nutmeg font-bold font-outfit">277kcal</p>
             <hr className="border-t border-gray-400 mx-10 my-4" />
-            <p>Carbs 0g</p>
+            <p className="text-dark-charcoal font-outfit">Carbs</p>
+            <p className="text-nutmeg font-bold font-outfit">0g</p>
             <hr className="border-t border-gray-400 mx-10 my-4" />
-            <p>Protein 20g</p>
+            <p className="text-dark-charcoal font-outfit">Protein</p>
+            <p className="text-nutmeg font-bold font-outfit">20g</p>
             <hr className="border-t border-gray-400 mx-10 my-4" />
-            <p>Fat 22g</p>
+            <p className="text-dark-charcoal font-outfit">Fat</p>
+            <p className="text-nutmeg font-bold font-outfit">22g</p>
             <hr className="border-t border-gray-400 mx-10 my-4" />
           </div>
         </div>
